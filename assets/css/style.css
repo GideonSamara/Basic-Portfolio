@@ -1,12 +1,111 @@
 h1 {
-    padding: 30 px;
-    background-color: #4aaaa5;
+    border-color: #cccccc;;
+    border-style: hidden;
+    text-align: center;
+    background-color: pink;
     color: white;
-    font-size: 16px;
-    float: center;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    max-width: 200px;
+    padding: 25px;
+    display: inline-block;
+
 }
 
 h2 {
-    color: black;
+    color:pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    text-align: center;
+    font-weight: bolder;
+}
 
+/* #Center-Box {
+    background-color: #ffffff;
+    max-width: 200px;
+} */
+
+
+.main-content {
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #dddddd;
+    color: #666666;
+    width: 100%;
+    display: inline-block;
+}
+
+html {
+    background-image: url(../images/leaves.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.contact-info {
+    max-width: 500px;
+    margin-right: center;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.label {
+    display: block;
+    
+}
+
+.container {
+    color: #777777;
+    background-image:url(../images/leaves.jpg);
+    border-color: #dddddd;
+    max-width: 960px;
+    margin: auto auto;
+    clear: both;
+}
+
+#Portfolio {
+    color: #777777;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin-top: 15px;
+
+}
+
+#Contact {
+    color: #777777;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+#About {
+    color: #777777;
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+    padding: 5px;   
+}
+
+/* footer is completely done */
+
+footer {
+    display: block;
+    padding-top: 20px 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: #666666;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    line-height: 40px;
 }
